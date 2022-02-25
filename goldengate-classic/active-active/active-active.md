@@ -1,4 +1,4 @@
-# Active Active / HA-DR Replication with GoldenGate
+# Active Active / HA-DR Replication with GoldenGate Data Mesh
 
 ### Introduction
 In this lab we will load data in and configure active-active for High Availability. This bidirectional technology allows High Availability using GoldeGate technology.
