@@ -1,8 +1,8 @@
 # Introduction
 
-This hands-on lab is designed to demonstrate how Oracle GoldenGate 19c Microservices can be used to setup a replication environment by a mix of web page, shell scripts and Rest API calls.  For ease of execution, all commands to be executed are provided in shell scripts staged on the instance.
+This hands-on lab is designed to demonstrate how Oracle Data Mesh can be used to setup a replication environment by a mix of web page, shell scripts and Rest API calls.  For ease of execution, all commands to be executed are provided in shell scripts staged on the instance.
 
-The labs will walk the end-user through how to add all components of Oracle GoldenGate replication.
+The labs will walk the end-user through how to add all components of Oracle Data Mesh replication.
 
 *Estimated Lab Time*: 4 hours
 
