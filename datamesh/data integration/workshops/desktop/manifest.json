@@ -1,11 +1,11 @@
 {
-  "workshoptitle": "Oracle GoldenGate Microservices",
+  "workshoptitle": "Oracle Data Mesh Integration Demo",
   "help": "livelabs-help-db_us@oracle.com",
   "tutorials": [
     {
       "title": "Introduction",
       "description": "Introduction to GoldenGate Microservices",
-      "filename": "../../introduction/introduction.md"
+      "filename": "../../Lab1 introduction/introduction.md"
     },
     {
       "title": "Get Started with noVNC Remote Desktop",
@@ -13,34 +13,29 @@
       "filename": "https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/remote-desktop/using-novnc-remote-desktop.md"
     },
     {
-      "title": "Lab 1: Initialize Environment",
-      "description": "GG Initial Setup",
-      "filename": "../../initial-setup/initial-setup.md"
+      "title": "Lab 1: Introduction",
+      "description": "Introduction to Data Mesh Integration",
+      "filename": "Lab 1 introduction/introduction.md"
     },
     {
-      "title": "Lab 2: Create One-Way Replication",
+      "title": "Lab 2: Data Preparation",
       "description": "GG Replication",
       "filename": "../../create-replication/create-replication.md"
     },
     {
-      "title": "Lab 3: Create HA/DR Replication",
+      "title": "Lab 3: GoldeGate Microservices",
       "description": "Hign Availability / Disaster Recovery Replication",
       "filename": "../../ha-dr/ha-dr.md"
     },
     {
-      "title": "Lab 4: Transformations",
+      "title": "Lab 4: GoldeGate Stream Analytics",
       "description": "Transformations",
       "filename": "../../transformations/transformations.md"
     },
     {
-      "title": "Lab 5: Conflict Detection and Resolution (Heterogeneous)",
+      "title": "Lab 5: Oracle Analytics Server",
       "description": "Conflict Detection and Resolution (Heterogeneous)",
       "filename": "../../cdr-heterogeneous/cdr-heterogeneous.md"
-    },
-    {
-      "title": "Need Help?",
-      "description": "Solutions to Common Problems and Directions for Receiving Live Help",
-      "filename": "https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/need-help/need-help-livelabs.md"
     }
   ]
 }
