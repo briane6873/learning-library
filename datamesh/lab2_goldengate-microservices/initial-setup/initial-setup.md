@@ -117,45 +117,6 @@ Run:
 
 
 
-## Task 2: Sign Into GoldenGate Microservices Console
-
-
-
-
-
-
-2. On the web browser window on the right preloaded with *Oracle GoldenGate Administrator Manager*, click on the *Username* field and provide the credentials below to login.
-
-    ```
-    <copy>
-
-    U<copy>oggadmin</copy>
-    <copy>
-    ```
-
-    ```
-    Password: <copy>welcome1</copy>
-    ```
-
-    ![](./images/goldegate-login.png" ")
-
-3. Confirm successful login. 
-
-
-![](./images/ggma1.png " ")
-
-![](./images/ggma2.png " ")
-
-![](./images/ggma3.png " ")
-
-![](./images/ggma4.png " ")
-
-![](./images/ggma_ext.png " ")
-
-![](./images/ggma_ext2.png " ")
-
-![](./images/ggma_ext3.png " ")
-
 
 
 You may now [proceed to the next lab](#next).
