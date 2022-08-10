@@ -118,7 +118,7 @@ If you selected the **Green Button** for this workshop and still have an active 
 * [GoldenGate Microservices](https://docs.oracle.com/en/middleware/goldengate/core/19.1/understanding/getting-started-oracle-goldengate.html#GUID-F317FD3B-5078-47BA-A4EC-8A138C36BD59)
 
 ## Acknowledgements
-* **Author** - Brian Elliott, Data Integration, August 2022
+* **Author**- Matt W, Andrew Selius, Solution Engineer, NA Cloud and Technology, August 2022
 * **Contributors** - X
 - **Last Updated By/Date** - Brian Elliott, Data Integration, August 2022
 
