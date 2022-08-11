@@ -50,7 +50,7 @@ Deployments provide a siloed approach to splitting replication environments betw
 ![](images/goldengate-login.png " ")
 
 
-2. Confirm successful login. 
+2. Confirm successful login. Verify green checkbox that it is running successfully
 
 ![](images/ggma2.png " ")
 

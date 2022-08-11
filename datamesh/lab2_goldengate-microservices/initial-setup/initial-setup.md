@@ -77,7 +77,7 @@ export CLASSPATH=$ORACLE_HOME/jlib:$ORACLE_HOME/rdbms/jlib
 ## Task 2: Run commands to populate Truck Stream inserts 
 
 
-1. [oracle@dmsageintegration ~]$ cd scripts
+1. [oracle@dmsageintegration ~]$ cd ..
 
 
 2.  run script to generate records in TruckStream database
@@ -92,7 +92,7 @@ Run:
 
 ```
 <copy>
-[oracle@dmsageintegration ~]$ sh ./scripts/feed_integration_script.sh ./scripts/TruckStreamScript2.sql 
+[oracle@dmsageintegration ~]$ sh ./scripts/feed_integration_script.sh ./scripts/TruckStreamScript2.sql 1
 
 </copy>
 ```
