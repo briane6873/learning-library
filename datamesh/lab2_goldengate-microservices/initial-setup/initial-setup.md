@@ -18,13 +18,14 @@ Understanding how to prepare and setup an Oracle Database for replication and de
 
 2. Click on *Terminal* icon on the desktop to start a terminal session
 
-![](../terminal1.png " ")
+
+![](images/terminal1.png " ")
 
 
 3. [oracle@dmsageintegration ~]$ cd scripts
 
 
-![](./images/truckstream2.png " ")
+![](/images/truckstream2.png " ")
 
 sudo into oracle user
 
@@ -80,7 +81,12 @@ export CLASSPATH=$ORACLE_HOME/jlib:$ORACLE_HOME/rdbms/jlib
 
 
 2.  run script to generate records in TruckStream database
+
+```
+<copy>
 cd ..
+</copy>
+```
 
 Run:
 

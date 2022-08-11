@@ -54,7 +54,7 @@ Deployments provide a siloed approach to splitting replication environments betw
 
 ![](images/ggma2.png " ")
 
-3. Review Extract from Database - **Truck Stream**. 
+3. Review GoldenGate Extract from Database - **Truck Stream**. 
 
 
 ![](images/ggma3.png " ")
