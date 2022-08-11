@@ -29,30 +29,24 @@ Understanding how to prepare and setup an Oracle Database for replication and de
     </copy>
     ```
 
-## Task 2: Run commands to populated Truck Stream inserts 
+## Task 2: Run commands to populate Truck Stream inserts 
 
-1. Click on *Terminal* icon on the desktop to start a terminal and Create some additional tables that we will be using later in our labs for CDR purposes.
+1. Click on *Terminal* icon on the desktop to start a terminal session
 
+![](../terminal1.png " ")
 
- truckstream1.png
-![](./images/truckstream1.png " ")
+2. sign into the data integration server
 
-
-2. [oracle@dmsageintegration ~]$ cd scripts/
-
-
-truckstream1.png
-![](./images/truckstream1.png " ")
-
-truckstream2.png
 ![](./images/truckstream2.png " ")
 
+sudo into oracle user
 
+cd to scripts
 
 ```
 <copy>
 cd /home/oracle
-oracle@dmsageintegration $ cd scripts/
+oracle@dmsageintegration$ cd scripts/
 </copy>
 ```
 
@@ -64,11 +58,15 @@ cat setEnv.sh
 
 
 ```
-<copy>copy and  paste to terminal
+<copy>copy and  paste export lines to terminal, press enter
+
 </copy>
 ```
 
-~~~
+![](../terminal2.png " ")
+
+
+```
 <copy>
 export TMP=/tmp
 export TMPDIR=$TMP
@@ -85,20 +83,16 @@ export PATH=$ORACLE_HOME/bin:$PATH
 export LD_LIBRARY_PATH=$ORACLE_HOME/lib:/lib:/usr/lib
 export CLASSPATH=$ORACLE_HOME/jlib:$ORACLE_HOME/rdbms/jlib
 
-<copy>
-```
-
-
-```
 </copy>
+```
+
+
+4. [oracle@dmsageintegration ~]$ cd scripts
+
+
+
+5.  run script to generate records in TruckStream database
 cd ..
-
-[oracle@dmsageintegration ~]$ pwd
-/home/oracle
-[oracle@dmsageintegration ~]$ sh ./scripts/feed_integration_script.sh ./scripts/TruckStreamScript2.sql 
-
-</copy>
-```
 
 Run:
 
@@ -109,10 +103,13 @@ Run:
 </copy>
 ```
 
-![](./images/truckstream3.png " ")
+
+![](images/truckstream3.png " ")
 
 
-![](./images/truckstream4.png " ")
+
+
+![](images/truckstream4.png " ")
 
 
 
