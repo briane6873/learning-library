@@ -10,8 +10,7 @@ A data mesh aims to link data producers directly to business users and, to the g
 
 Oracle’s focus on data mesh has been in providing a platform for our customers that can address these emerging technology requirements. This includes tools for data products; decentralized, event-driven architectures; and streaming patterns for data in motion. For data product domain modeling and other sociotechnical concerns, Oracle aligns with the work being done by the thought leader in data mesh, Zhamak Dehghani.
 
-
-![](whatisdatamesh.md)" "
+![](images/dm.png " ")
 
 
 ### Benefits of a Data Mesh
