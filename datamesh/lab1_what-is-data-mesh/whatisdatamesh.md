@@ -27,5 +27,5 @@ Investing in a data mesh can yield impressive benefits, including:
 
 ## Acknowledgements
 * **Author** -Matt W, Andrew Selius, Solution Engineer, NA Cloud and Technology, August 2022
-* **Contributors** - X
+* **Contributors** - Matt W, Andrew Selius, Solution Engineer, NA Cloud and Technology, August 2022
 - **Last Updated By/Date** - Data Integration Team, August 2022

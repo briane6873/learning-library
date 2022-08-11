@@ -273,4 +273,4 @@ This next section we will inspect the health of our ten trucks and see how the w
 ## Acknowledgements
 * **Authors** - Luke Wheless, Andrew Selius, Solution Engineer, NA Cloud and Technology
 * **Contributors** - Luke Wheless, Solution Solution Engineer, NA Cloud and Technology
-* **Last Updated By/Date** - Luke Wheless, June 2022
+* **Last Updated By/Date** - Luke Wheless, June - 2022

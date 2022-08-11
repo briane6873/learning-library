@@ -120,5 +120,5 @@ If you selected the **Green Button** for this workshop and still have an active 
 ## Acknowledgements
 * **Author**- Matt W, Andrew Selius, Solution Engineer, NA Cloud and Technology, August 2022
 * **Contributors** - X
-- **Last Updated By/Date** - Brian Elliott, Data Integration, August 2022
+- **Last Updated By/Date** - Brian Elliott, Data Integration, August - 2022
 

@@ -82,6 +82,6 @@ You may now [proceed to the next lab](#next).
 * [GoldenGate Microservices](https://docs.oracle.com/en/middleware/goldengate/core/19.1/understanding/getting-started-oracle-goldengate.html#GUID-F317FD3B-5078-47BA-A4EC-8A138C36BD59)
 
 ## Acknowledgements
-* **Author** - Brian Elliott, Data Integration, August 2022
+* **Author** - Brian Elliott, Data Integration, August - 2022
 * **Contributors** - 
-- **Last Updated By/Date** - Brian Elliott, Data Integration, August 2022
+- **Last Updated By/Date** - Brian Elliott, Data Integration, August - 2022
