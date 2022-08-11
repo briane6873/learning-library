@@ -16,15 +16,12 @@ Understanding how to prepare and setup an Oracle Database for replication and de
 
 1. sign into the data integration server
 
-2. [oracle@dmsageintegration ~]$ cd scripts
-
-
-
-3. Click on *Terminal* icon on the desktop to start a terminal session
+2. Click on *Terminal* icon on the desktop to start a terminal session
 
 ![](../terminal1.png " ")
 
 
+3. [oracle@dmsageintegration ~]$ cd scripts
 
 
 ![](./images/truckstream2.png " ")

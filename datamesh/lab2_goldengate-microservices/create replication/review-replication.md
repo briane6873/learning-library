@@ -4,7 +4,7 @@
 
 This hands-on lab is designed to demonstrate how Oracle GoldenGate 19c Microservices can be used to setup a replication environment by a mix of web page, shell scripts and Rest API interfaces.  
 
-The labs will walk the end-user through how to add all components of Oracle GoldenGate replication.
+The labs will walk the end-user through how to add components of Oracle GoldenGate replication.
 
 *Estimated Lab Time*: 30 mins
 
@@ -49,27 +49,25 @@ Deployments provide a siloed approach to splitting replication environments betw
 
 ![](images/goldengate-login.png " ")
 
+
 2. Confirm successful login. 
-
-![](images/ggma1.png " ")
-
-3. Confirm successful login. 
 
 ![](images/ggma2.png " ")
 
-4. Review Extract from Database - **Truck Stream**. 
+3. Review Extract from Database - **Truck Stream**. 
+
 
 ![](images/ggma3.png " ")
 
-5. Select **Details** from the drop down. 
+4. Select **Action / Details** from the drop down. 
 
 ![](images/ggma4.png " ")
 
-6. Confirm inserts by selecting **statistics**. 
+5. Confirm inserts by selecting **statistics**. 
 
 ![](images/ggma_ext.png " ")
 
-7. Review parameter file - Table being extracted is TRUCK_STREAM
+6. Review parameter file - Table being extracted is DATAINT.TRUCK_STREAM
 
 
 ## Summary
