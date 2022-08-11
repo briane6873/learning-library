@@ -13,19 +13,19 @@
       "title": "Lab 2: GoldenGate Microservices",
       "description": "Data Generation for Truck_Stream and GoldenGate Microservices",
       "publisheddate": "08/11/2022",
-      "filename": "lab2_goldengate-microservices/create replication/review-replication.md"
+      "filename": "../../lab2_goldengate-microservices/create replication/review-replication.md"
     },
     {
       "title": "Lab 3: GoldenGate Streaming Analytics",
       "description": "GoldenGate Streaming Analytics",
       "publisheddate": "08/11/2022",
-      "filename": "../../initial-setup/initial-setup.md"
+      "filename": "../../lab3_goldengate--stream-analytics/ggsa-truck-stream.mdd"
     },
     {
       "title": "Lab 4: Oracle Analytics Server",
       "description": "Oracle Analytics Server",
       "publisheddate": "08/11/2022",
-      "filename": "../../create-replication/create-replication.md"
+      "filename": "../../lab4_oracle-analytics-server/oas.md"
    
     },
     {
