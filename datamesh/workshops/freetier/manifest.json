@@ -1,48 +1,32 @@
 {
-  "workshoptitle": "Oracle Data Mesh -Data Integration Use Case",
+  "workshoptitle": "Oracle Data Mesh - Data Integration Use Case",
   "help": "livelabs-help-license_us@oracle.com",
   "tutorials": [
     {
-      "title": "Introduction",
-      "description": "Introduction to Data Mesh Data Integration Workshop",
-      "filename": "../../introduction/introduction.md"
-    },
-    {
+
       "title": "Lab 1: What is Data Mesh?",
       "description": "What is Data Mesh?",
-      "publisheddate": "09/28/2020",
-      "filename": "../../prepare-setup/prepare-setup.md"
+      "publisheddate": "08/11/2022",
+      "filename": "../../lab1_what-is-data-mesh/whatisdatamesh.md"
     },
     {
-      "title": "Lab 2: Introduction",
-      "description": "Introduction",
-      "publisheddate": "06/30/2020",
-      "filename": "https://raw.githubusercontent.com/oracle/learning-library/master/common/labs/setup-compute-generic/setup-compute-novnc.md"
+      "title": "Lab 2: GoldenGate Microservices",
+      "description": "Data Generation for Truck_Stream and GoldenGate Microservices",
+      "publisheddate": "08/11/2022",
+      "filename": "lab2_goldengate-microservices/create replication/review-replication.md"
     },
     {
-      "title": "Lab 3: Data Preparation",
-      "description": "Data Preparation",
+      "title": "Lab 3: GoldenGate Streaming Analytics",
+      "description": "GoldenGate Streaming Analytics",
+      "publisheddate": "08/11/2022",
       "filename": "../../initial-setup/initial-setup.md"
     },
     {
-      "title": "Lab 4: GoldenGate Microservices",
-      "description": "GoldenGate Microservices",
-      "filename": "../../create-replication/create-replication.md"
-    },
-    {
-      "title": "Lab 5: GoldenGate Stream Analytics",
-      "description": "GoldenGate Stream Analytics",
-      "filename": "../../ha-dr/ha-dr.md"
-    },
-    {
-      "title": "Lab 6: Oracle Analytics Server",
+      "title": "Lab 4: Oracle Analytics Server",
       "description": "Oracle Analytics Server",
-      "filename": "../../transformations/transformations.md"
-    },
-    {
-      "title": "Lab 7: Reset (optional)",
-      "description": "Reset",
-      "filename": "../../cdr-heterogeneous/cdr-heterogeneous.md"
+      "publisheddate": "08/11/2022",
+      "filename": "../../create-replication/create-replication.md"
+   
     },
     {
       "title": "Need Help?",
