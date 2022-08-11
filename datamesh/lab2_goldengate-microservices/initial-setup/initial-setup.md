@@ -29,6 +29,8 @@ Understanding how to prepare and setup an Oracle Database for replication and de
 
 sudo into oracle user
 
+![](images/terminals.png " ")
+
 4.  cd to scripts
 
 ```
@@ -46,33 +48,14 @@ cat setEnv.sh
 
 
 ```
-<copy>copy and  paste export lines to terminal, press enter
+<copy> copy and  paste export lines to terminal, press enter
 
 </copy>
 ```
+![](images/terminal2.png " ")
+This will set up the Oracle environment
 
-![](../terminal2.png " ")
 
-
-```
-<copy>
-export TMP=/tmp
-export TMPDIR=$TMP
-export ORACLE_HOSTNAME=dmsageintegration
-export ORACLE_UNQNAME=dmdcb1
-export ORACLE_BASE=/u01/app/oracle
-export ORACLE_HOME=/u01/app/oracle/product/19.3.0.0/db100
-export ORA_INVENTORY=/u01/app/oraInventory
-export ORACLE_SID=dmdcb1
-export PDB_NAME=dmpdb1
-export DATA_DIR=/u02/oradata
-export PATH=/usr/sbin:/usr/local/bin:$PATH
-export PATH=$ORACLE_HOME/bin:$PATH
-export LD_LIBRARY_PATH=$ORACLE_HOME/lib:/lib:/usr/lib
-export CLASSPATH=$ORACLE_HOME/jlib:$ORACLE_HOME/rdbms/jlib
-
-</copy>
-```
 
 ## Task 2: Run commands to populate Truck Stream inserts 
 
@@ -96,6 +79,7 @@ Run:
 
 </copy>
 ```
+
 
 
 ![](images/truckstream3.png " ")
