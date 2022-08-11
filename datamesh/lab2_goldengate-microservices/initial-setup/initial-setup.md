@@ -3,45 +3,35 @@
 ## Introduction
 In this lab we will setup the required database and GoldenGate replication users.
 
-*Estimated Lab Time*:  10 minutes
+*Estimated Lab Time*:  20 minutes
 
 ### Lab Architecture
 ![](./images/ggmicroservicesarchitecture.png " ")
 
 ### Objectives
-Understanding how to prepare and setup an Oracle Database for replication and define users for replication. Users are created using scripts that populate the multitenant environment with required Oracle Users while applying aliases to be used by GoldenGate. The Databases used in this lab are identified using the SOE schema in source and targets.
+Understanding how to prepare and setup an Oracle Database for replication and define users for replication. Users are created using scripts that populate the multitenant environment with required Oracle Users while applying aliases to be used by GoldenGate. The Database used in this lab are identified in the source and has been already created.
 
 
-## Task 1: Validate That Required Processes are Up and Running.
-1. Now with access to your remote desktop session, proceed as indicated below to validate your environment before you start executing the subsequent labs. The following Processes should be up and running:
+## Task 1: set up environment to populate truck streaming.
 
-    - Database Listener
-        - LISTENER
-    - Database Server instance
-        - ORCL
-    - Oracle GoldenGate ServiceManager
+1. sign into the data integration server
 
-    Open the terminal on the remote desktop and run the following for a clean start.
+2. [oracle@dmsageintegration ~]$ cd scripts
 
-    ```
-    <copy>
-    sudo systemctl status oracle-database OracleGoldenGate
-    </copy>
-    ```
 
-## Task 2: Run commands to populate Truck Stream inserts 
 
-1. Click on *Terminal* icon on the desktop to start a terminal session
+3. Click on *Terminal* icon on the desktop to start a terminal session
 
 ![](../terminal1.png " ")
 
-2. sign into the data integration server
+
+
 
 ![](./images/truckstream2.png " ")
 
 sudo into oracle user
 
-cd to scripts
+4.  cd to scripts
 
 ```
 <copy>
@@ -86,12 +76,13 @@ export CLASSPATH=$ORACLE_HOME/jlib:$ORACLE_HOME/rdbms/jlib
 </copy>
 ```
 
-
-4. [oracle@dmsageintegration ~]$ cd scripts
-
+## Task 2: Run commands to populate Truck Stream inserts 
 
 
-5.  run script to generate records in TruckStream database
+1. [oracle@dmsageintegration ~]$ cd scripts
+
+
+2.  run script to generate records in TruckStream database
 cd ..
 
 Run:
@@ -105,11 +96,6 @@ Run:
 
 
 ![](images/truckstream3.png " ")
-
-
-
-
-![](images/truckstream4.png " ")
 
 
 
