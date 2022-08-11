@@ -15,17 +15,16 @@ Oracle GoldenGate offers high-performance, fault-tolerant, easy-to-use, and flex
 
 ![](./images/ggmicroservicesarchitecture.png " ")
 
-
 ### Objectives
 
-The objectives of the lab is to familiarize you with the process to create data replication objects that will allow you to replicate data realtime using GoldenGate Microservices while levergaring RestfulAPIs.
+The objectives of the lab is to familiarize you with the process to create data replication objects that will allow you to replicate data realtime using GoldenGate Microservices while leveraging RestfulAPIs.
 
-In this lab we will setup GoldenGate Microservices
+In this lab we will review the GoldenGate Microservices Extract
 
-## Task 1: Review Deployments Extract – "EXT2"
+##  Review Deployments Extract – "EXT2"
 
 Deployments are a new concept in Oracle GoldenGate Microservices.
-Deployments provide a siloed approach to splitting replication environments between applications, customers, or environments. This allows for greater control over the use of Oracle GoldenGate in larger environments.
+Deployments provide a siloed approach to splitting replication environments between applications, customers, or environments. This allows for greater control over the use of Oracle GoldenGate in larger environments. In this case, we are deploying an extract to write to GG Stream Analytics.
 
 
 **GoldenGate Extracts** define the rules and parameters for replicating data from the Truck Stream Oracle Database real time to load into the GG Stream Architecture
@@ -34,38 +33,26 @@ Deployments provide a siloed approach to splitting replication environments betw
 
 1. On the web browser window on the right preloaded with *Oracle GoldenGate Administrator Manager*, click on the *Username* field and provide the credentials below to login.
 
-    ```
-    <copy>
 
-    <copy>oggadmin</copy>
-    </copy>
-    ```
-
-    ```
-    <copy>
-    Password: <copy>welcome1</copy>
-    </copy>
-    ```
-
-![](images/goldengate-login.png " ")
+![](./images/goldengate-login.png " ")
 
 
 2. Confirm successful login. Verify green checkbox that it is running successfully
 
-![](images/ggma2.png " ")
+![](./images/ggma2.png " ")
 
 3. Review GoldenGate Extract from Database - **Truck Stream**. 
 
 
-![](images/ggma3.png " ")
+![](./images/ggma3.png " ")
 
 4. Select **Action / Details** from the drop down. 
 
-![](images/ggma4.png " ")
+![](./images/ggma4.png " ")
 
 5. Confirm inserts by selecting **statistics**. 
 
-![](images/ggma_ext.png " ")
+![](./images/ggma_ext.png " ")
 
 6. Review parameter file - Table being extracted is DATAINT.TRUCK_STREAM
 

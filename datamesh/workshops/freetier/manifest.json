@@ -13,7 +13,7 @@
       "title": "Lab 2: GoldenGate Microservices",
       "description": "Data Generation for Truck_Stream and GoldenGate Microservices",
       "publisheddate": "08/11/2022",
-      "filename": "../../lab2_goldengate-microservices/create replication/review-replication.md"
+      "filename": "../../lab2_goldengate-microservices/create replication/create-replication.md"
     },
     {
       "title": "Lab 3: GoldenGate Streaming Analytics",
