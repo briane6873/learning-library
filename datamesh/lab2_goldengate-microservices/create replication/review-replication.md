@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This hands-on lab is designed to demonstrate how Oracle GoldenGate 19c Microservices can be used to setup a replication environment by a mix of web page, shell scripts and Rest API interfaces.  All labs will use shell scripts to facilitate the building of the environment, at the same time provide insight into how to use the web pages and AdminClient.
+This hands-on lab is designed to demonstrate how Oracle GoldenGate 19c Microservices can be used to setup a replication environment by a mix of web page, shell scripts and Rest API interfaces.  
 
-The labs will walk the end-user through how to add all components of Oracle GoldenGate replication.  To do the instantiation of the target database, the end-user will be performing a data pump export and import.  All replication process will be started as they are built.
+The labs will walk the end-user through how to add all components of Oracle GoldenGate replication.
 
-*Estimated Lab Time*: 45 mins
+*Estimated Lab Time*: 30 mins
 
 ### About Oracle GoldenGate Microservices
 Oracle GoldenGate offers high-performance, fault-tolerant, easy-to-use, and flexible real- time data streaming platform for big data environments. It easily extends customers’ real-time data integration architectures to big data systems without impacting the performance of the source systems and enables timely business insight for better decision making. This workshop focuses on **GoldenGate Real Time Data Capture** demonstrating four scenarios that you can use (both on-premise and in the cloud) to capture real time data changes from your sources.
@@ -20,60 +20,56 @@ Oracle GoldenGate offers high-performance, fault-tolerant, easy-to-use, and flex
 
 The objectives of the lab is to familiarize you with the process to create data replication objects that will allow you to replicate data realtime using GoldenGate Microservices while levergaring RestfulAPIs.
 
-### Prerequisites
-This lab assumes you have:
-- A Free Tier, Paid or LiveLabs Oracle Cloud account
-- SSH Private Key to access the host via SSH
-- You have completed:
-    - Lab: Generate SSH Keys (*Free-tier* and *Paid Tenants* only)
-    - Lab: Prepare Setup (*Free-tier* and *Paid Tenants* only)
-    - Lab: Environment Setup
-    - Lab: Initialize Environment
-
 In this lab we will setup GoldenGate Microservices
 
-## Task 1: Review Deployments Extracts – EXT2
+## Task 1: Review Deployments Extract – "EXT2"
 
 Deployments are a new concept in Oracle GoldenGate Microservices.
 Deployments provide a siloed approach to splitting replication environments between applications, customers, or environments. This allows for greater control over the use of Oracle GoldenGate in larger environments.
 
 
-## GoldenGate Extracts##  define the rules and parameters for replicating data from the Truck Stream Oracle Database real time to load into the GG Stream Architecture
+**GoldenGate Extracts** define the rules and parameters for replicating data from the Truck Stream Oracle Database real time to load into the GG Stream Architecture
 
-## Task 2: Sign Into GoldenGate Microservices Console
+## Task 1: Sign Into GoldenGate Microservices Console
 
 1. On the web browser window on the right preloaded with *Oracle GoldenGate Administrator Manager*, click on the *Username* field and provide the credentials below to login.
 
     ```
     <copy>
 
-    U<copy>oggadmin</copy>
+    <copy>oggadmin</copy>
+    </copy>
+    ```
+
+    ```
     <copy>
-    ```
-
-    ```
     Password: <copy>welcome1</copy>
+    </copy>
     ```
 
-    ![](./images/goldegate-login.png" ")
+![](images/goldengate-login.png " ")
+
+2. Confirm successful login. 
+
+![](images/ggma1.png " ")
 
 3. Confirm successful login. 
 
+![](images/ggma2.png " ")
 
-![](./images/ggma1.png " ")
+4. Review Extract from Database - Truck Stream. 
 
-![](./images/ggma2.png " ")
+![](images/ggma3.png " ")
 
-![](./images/ggma3.png " ")
+5. Select Details. 
 
-![](./images/ggma4.png " ")
+![](images/ggma4.png " ")
 
-![](./images/ggma_ext.png " ")
+6. Confirm inserts. 
 
-![](./images/ggma_ext2.png " ")
+![](images/ggma_ext.png " ")
 
-![](./images/ggma_ext3.png " ")
-
+7. Review parameter file - Table being extracted is TRUCK_STREAM
 
 
 ## Summary
