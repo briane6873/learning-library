@@ -57,15 +57,15 @@ Deployments provide a siloed approach to splitting replication environments betw
 
 ![](images/ggma2.png " ")
 
-4. Review Extract from Database - Truck Stream. 
+4. Review Extract from Database - **Truck Stream**. 
 
 ![](images/ggma3.png " ")
 
-5. Select Details. 
+5. Select **Details** from the drop down. 
 
 ![](images/ggma4.png " ")
 
-6. Confirm inserts. 
+6. Confirm inserts by selecting **statistics**. 
 
 ![](images/ggma_ext.png " ")
 
