@@ -69,8 +69,13 @@ oracle@dmsageintegration$ cd scripts/
 ```
 6. copy and paste export lines to terminal . Press enter to set up environment
 
+7. run env to confirm enviroment is set up
 
+```
+<copy>env
+```
 ![](./images/terminal2.png " ")
+
 This will set up the Oracle environment
 
 
