@@ -30,24 +30,24 @@ This lab assumes you have:
 In this lab we will review the GoldenGate Microservices Extract and insert records into the source database Truck_Stream
 
 
-## Task 1: set up environment to populate truck streaming.
+## Task 1: Set up environment to populate truck streaming.
 
 1. sign into the data integration server
 
 2. Click on *Terminal* icon on the desktop to start a terminal session
 
 
-![](images/terminal1.png " ")
+![](./images/terminal1.png " ")
 
 
 3. [oracle@dmsageintegration ~]$ cd scripts
 
 
-![](/images/truckstream2.png " ")
+![](./images/truckstream2.png " ")
 
 sudo into oracle user
 
-![](images/terminals.png " ")
+![](./images/terminals.png " ")
 
 4. change directory to scripts where the environment setup resides in a script
 
@@ -72,7 +72,7 @@ cat setEnv.sh
 6. copy and paste export lines to terminal . Press enter to set up environment
 
 
-![](images/terminal2.png " ")
+![](./images/terminal2.png " ")
 This will set up the Oracle environment
 
 
@@ -100,9 +100,10 @@ cd ..
 ```
 
 
-![](images/truckstream3.png " ")
+![](./images/truckstream3.png " ")
 
-##  Review GoldenGate Microservices Deployment Extract – "EXT2"
+## Task 3: Review GoldenGate Microservices Deployment Extract – "EXT2"
+
 
 Deployments are a new concept in Oracle GoldenGate Microservices.
 Deployments provide a siloed approach to splitting replication environments between applications, customers, or environments. This allows for greater control over the use of Oracle GoldenGate in larger environments. In this case, we are deploying an extract to write to GG Stream Analytics.
@@ -151,5 +152,5 @@ You may now [proceed to the next lab](#next).
 
 ## Acknowledgements
 * **Author** - Brian Elliott, Data Integration, August - 2022
-* **Contributors** - 
+* **Contributors** - Brian Elliott, Data Integration, August - 2022 
 - **Last Updated By/Date** - Brian Elliott, Data Integration, August - 2022
