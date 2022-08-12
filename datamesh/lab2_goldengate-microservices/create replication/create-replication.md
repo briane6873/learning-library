@@ -47,27 +47,34 @@ In this lab we will review the GoldenGate Microservices Extract and insert recor
 
 sudo into oracle user
 
+```
+<copy>sudo su - oracle
+
+```
+
 ![](./images/terminals.png " ")
 
 4. change directory to scripts where the environment setup resides in a script
 
 ```
-<copy>
-cd  scripts
-</copy>
+<copy> cd  scripts
+
 ```
 
 ```
 <copy>
 cd /home/oracle
+</copy>
+```
+```
+<copy>
 oracle@dmsageintegration$ cd scripts/
 </copy>
 ```
+
 5. cat the setEnv shell script
 ```
-<copy>
-cat setEnv.sh
-</copy>
+<copy>cat setEnv.sh
 ```
 6. copy and paste export lines to terminal . Press enter to set up environment
 
@@ -85,18 +92,13 @@ This will set up the Oracle environment
 2.  run script to generate records in TruckStream database
 
 ```
-<copy>
-cd ..
-</copy>
+<copy> cd ..
 ```
 
 3. Run script to populate Truck Stream database with inserts
 
 ```
-<copy>
-[oracle@dmsageintegration ~]$ sh ./scripts/feed_integration_script.sh ./scripts/TruckStreamScript2.sql 1
-
-</copy>
+<copy>sh ./scripts/feed_integration_script.sh ./scripts/TruckStreamScript2.sql 1
 ```
 
 
