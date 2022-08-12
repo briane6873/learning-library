@@ -27,9 +27,82 @@ This lab assumes you have:
     - Lab: Environment Setup
     - Lab: Initialize Environment
 
-In this lab we will review the GoldenGate Microservices Extract
+In this lab we will review the GoldenGate Microservices Extract and insert records into the source database Truck_Stream
 
-##  Review Deployments Extract – "EXT2"
+
+## Task 1: set up environment to populate truck streaming.
+
+1. sign into the data integration server
+
+2. Click on *Terminal* icon on the desktop to start a terminal session
+
+
+![](images/terminal1.png " ")
+
+
+3. [oracle@dmsageintegration ~]$ cd scripts
+
+
+![](/images/truckstream2.png " ")
+
+sudo into oracle user
+
+![](images/terminals.png " ")
+
+4. change directory to scripts where the environment setup resides in a script
+
+```
+<copy>
+cd  scripts
+</copy>
+```
+
+```
+<copy>
+cd /home/oracle
+oracle@dmsageintegration$ cd scripts/
+</copy>
+```
+5. cat the setEnv shell script
+```
+<copy>
+cat setEnv.sh
+</copy>
+```
+6. copy and paste export lines to terminal . Press enter to set up environment
+
+
+![](images/terminal2.png " ")
+This will set up the Oracle environment
+
+
+## Task 2: Run commands to populate Truck Stream inserts 
+
+
+1. [oracle@dmsageintegration ~]$ cd ..
+
+
+2.  run script to generate records in TruckStream database
+
+```
+<copy>
+cd ..
+</copy>
+```
+
+3. Run script to populate Truck Stream database with inserts
+
+```
+<copy>
+[oracle@dmsageintegration ~]$ sh ./scripts/feed_integration_script.sh ./scripts/TruckStreamScript2.sql 1
+
+</copy>
+```
+
+
+![](images/truckstream3.png " ")
+
+##  Review GoldenGate Microservices Deployment Extract – "EXT2"
 
 Deployments are a new concept in Oracle GoldenGate Microservices.
 Deployments provide a siloed approach to splitting replication environments between applications, customers, or environments. This allows for greater control over the use of Oracle GoldenGate in larger environments. In this case, we are deploying an extract to write to GG Stream Analytics.
@@ -37,7 +110,7 @@ Deployments provide a siloed approach to splitting replication environments betw
 
 **GoldenGate Extracts** define the rules and parameters for replicating data from the Truck Stream Oracle Database real time to load into the GG Stream Architecture
 
-## Task 1: Sign Into GoldenGate Microservices Console
+## Task 2: Sign Into GoldenGate Microservices Console
 
 1. On the web browser window on the right preloaded with *Oracle GoldenGate Administrator Manager*, click on the *Username* field and provide the credentials below to login.
 
