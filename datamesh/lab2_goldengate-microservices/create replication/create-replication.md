@@ -113,7 +113,7 @@ Deployments provide a siloed approach to splitting replication environments betw
 
 **GoldenGate Extracts** define the rules and parameters for replicating data from the Truck Stream Oracle Database real time to load into the GG Stream Architecture
 
-## Task 2: Sign Into GoldenGate Microservices Console
+## Task 4: Sign Into GoldenGate Microservices Console
 
 1. On the web browser window on the right preloaded with *Oracle GoldenGate Administrator Manager*, click on the *Username* field and provide the credentials below to login.
 
