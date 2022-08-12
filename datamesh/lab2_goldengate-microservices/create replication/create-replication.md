@@ -19,6 +19,14 @@ Oracle GoldenGate offers high-performance, fault-tolerant, easy-to-use, and flex
 
 The objectives of the lab is to familiarize you with the process to create data replication objects that will allow you to replicate data realtime using GoldenGate Microservices while leveraging RestfulAPIs.
 
+### Prerequisites
+This lab assumes you have:
+- A Free Tier, Paid or LiveLabs Oracle Cloud account
+- You have completed:
+    - Lab: Prepare Setup (*Free-tier* and *Paid Tenants* only)
+    - Lab: Environment Setup
+    - Lab: Initialize Environment
+
 In this lab we will review the GoldenGate Microservices Extract
 
 ##  Review Deployments Extract – "EXT2"
@@ -37,7 +45,7 @@ Deployments provide a siloed approach to splitting replication environments betw
 ![](./images/goldengate-login.png " ")
 
 
-2. Confirm successful login. Verify green checkbox that it is running successfully
+2. Confirm successful login. Verify green checkbox that extract is running successfully for EXT2
 
 ![](./images/ggma2.png " ")
 

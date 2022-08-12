@@ -1,7 +1,7 @@
 # Initialize Environment
 
 ## Introduction
-In this lab we will setup the required database and GoldenGate replication users.
+In this lab we will setup the required database and GoldenGate replication for the Data Mesh Data Integration Demo.
 
 *Estimated Lab Time*:  20 minutes
 
@@ -10,6 +10,14 @@ In this lab we will setup the required database and GoldenGate replication users
 
 ### Objectives
 Understanding how to prepare and setup an Oracle Database for replication and define users for replication. Users are created using scripts that populate the multitenant environment with required Oracle Users while applying aliases to be used by GoldenGate. The Database used in this lab are identified in the source and has been already created.
+
+### Prerequisites
+This lab assumes you have:
+- A Free Tier, Paid or LiveLabs Oracle Cloud account
+- You have completed:
+    - Lab: Prepare Setup (*Free-tier* and *Paid Tenants* only)
+    - Lab: Environment Setup
+    - Lab: Initialize Environment
 
 
 ## Task 1: set up environment to populate truck streaming.
@@ -31,7 +39,13 @@ sudo into oracle user
 
 ![](images/terminals.png " ")
 
-4.  cd to scripts
+4. change directory to scripts where the environment setup resides in a script
+
+```
+<copy>
+cd  scripts
+</copy>
+```
 
 ```
 <copy>
@@ -39,22 +53,17 @@ cd /home/oracle
 oracle@dmsageintegration$ cd scripts/
 </copy>
 ```
-
+5. cat the setEnv shell script
 ```
 <copy>
 cat setEnv.sh
 </copy>
 ```
+6. copy and paste export lines to terminal . Press enter to set up environment
 
 
-```
-<copy> copy and  paste export lines to terminal, press enter
-
-</copy>
-```
 ![](images/terminal2.png " ")
 This will set up the Oracle environment
-
 
 
 ## Task 2: Run commands to populate Truck Stream inserts 
@@ -71,7 +80,7 @@ cd ..
 </copy>
 ```
 
-Run:
+3. Run script to populate Truck Stream database with inserts
 
 ```
 <copy>
@@ -81,10 +90,7 @@ Run:
 ```
 
 
-
 ![](images/truckstream3.png " ")
-
-
 
 You may now [proceed to the next lab](#next).
 
