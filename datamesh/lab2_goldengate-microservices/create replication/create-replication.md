@@ -51,32 +51,25 @@ sudo into oracle user
 <copy>sudo su - oracle
 
 ```
-
-![](./images/terminals.png " ")
-
-4. change directory to scripts where the environment setup resides in a script
-
-```
-<copy> cd  scripts
-
-```
-
 ```
 <copy>
 cd /home/oracle
 </copy>
 ```
+5. change directory to scripts
+
 ```
 <copy>
 oracle@dmsageintegration$ cd scripts/
 </copy>
 ```
 
-5. cat the setEnv shell script
+6. cat the setEnv shell script
+
 ```
 <copy>cat setEnv.sh
 ```
-6. copy and paste export lines to terminal . Press enter to set up environment
+7. copy and paste export lines to terminal . Press enter to set up environment
 
 
 ![](./images/terminal2.png " ")
