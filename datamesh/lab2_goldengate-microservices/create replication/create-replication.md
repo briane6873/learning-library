@@ -40,12 +40,10 @@ In this lab we will review the GoldenGate Microservices Extract and insert recor
 ![](./images/terminal1.png " ")
 
 
-3. [oracle@dmsageintegration ~]$ cd scripts
-
 
 ![](./images/truckstream2.png " ")
 
-sudo into oracle user
+3. sudo into oracle user
 
 ```
 <copy>sudo su - oracle
@@ -56,7 +54,7 @@ sudo into oracle user
 cd /home/oracle
 </copy>
 ```
-5. change directory to scripts
+4. change directory to scripts
 
 ```
 <copy>
@@ -64,12 +62,12 @@ oracle@dmsageintegration$ cd scripts/
 </copy>
 ```
 
-6. cat the setEnv shell script
+5. cat the setEnv shell script
 
 ```
 <copy>cat setEnv.sh
 ```
-7. copy and paste export lines to terminal . Press enter to set up environment
+6. copy and paste export lines to terminal . Press enter to set up environment
 
 
 ![](./images/terminal2.png " ")
