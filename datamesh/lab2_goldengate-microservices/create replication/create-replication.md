@@ -61,22 +61,20 @@ cd /home/oracle
 oracle@dmsageintegration$ cd scripts/
 </copy>
 ```
-
-5. cat the setEnv shell script
-
+5. Run **source setEnv.sh** to set Oracle environment
 ```
-<copy>cat setEnv.sh
+<copy>source setEnv.sh
 ```
-6. copy and paste export lines to terminal . Press enter to set up environment
 
-7. run env to confirm enviroment is set up
+6. run env to confirm enviroment is set up - Verify Oracle Home
 
 ```
 <copy>env
 ```
 ![](./images/terminal2.png " ")
 
-This will set up the Oracle environment
+
+**This will set up the Oracle environment**
 
 
 ## Task 2: Run commands to populate Truck Stream inserts 
